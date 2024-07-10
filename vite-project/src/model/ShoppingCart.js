@@ -36,6 +36,7 @@ class ShoppingCart {
   }
   static findBy(id) {
     return (ShoppingCart.#allCarts.filter(obj => obj.id === id))[0];
+    // ShoppingCart.#allCarts.find(obj => obj.id === id)
   }
 }
 export default ShoppingCart;
