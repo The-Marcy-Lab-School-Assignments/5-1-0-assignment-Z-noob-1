@@ -7,7 +7,6 @@ class ShoppingCart {
 
   constructor() {
     this.id = getId();
-    // Array to store books
     ShoppingCart.#allCarts.push(this); 
   };
 
